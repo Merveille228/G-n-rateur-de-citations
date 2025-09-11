@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to right, rgb(53, 11, 49), rgb(153, 13, 111), rgb(153, 22, 142));
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 50px;
+}
+
+.invite {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 1px solid;
+    text-align: center;
+    margin-top: 100px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.bouton {
+    width: 15%;
+    height: 7vh;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgb(53, 11, 49), rgb(153, 13, 111), rgb(153, 22, 142));
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#content{
+    border: 1px solid;
+    width: 70%;
+    height: 5vh;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(199, 147, 209);
+    color: rgb(37, 3, 36);
+}
