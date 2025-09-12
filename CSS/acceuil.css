@@ -1,0 +1,49 @@
+body{
+    user-select: none;
+}
+img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-right: 62%;
+    margin-top: 9%;
+}
+h1 {
+    text-align: center;
+    background: linear-gradient(to left, #f255f7, #c533ea, #b41fc2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+}
+
+.cta {
+    height: 5vh;
+    margin: 15px;
+    width: 15vw;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #f255f7, #c533ea, #b41fc2);
+    transition: 0.5s ease;
+    border: #f255f7;
+    margin-top: 30px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 80vh;
+    background: radial-gradient(rgb(24, 1, 21), transparent 70%);
+}
+
+body p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+}

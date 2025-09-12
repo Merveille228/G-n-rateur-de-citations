@@ -4,19 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Générateur de Citation</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./assets/IMG-20250911-WA0366-removebg-preview.png" type="image/x-icon">
 </head>
 
 <body>
-    <h1>Générateur de citations</h1>
-
-    <div class="container">
-        <p class="invite">Clique sur le bouton
-            pour voir une citation</p>
-        <p id="content"></p>
-        <button class="bouton">Nouvelle citation</button>
-    </div>
+    <header>
+        <div class="logo"><img src="./assets/IMG-20250911-WA0366-removebg-preview.png" alt="logo"></div>
+        <nav class="nav_bar">
+            <ul>
+                <li><a href="./acceuil.html" class="ctive" target="content">accueil</a></li>
+                <li><a href="./categories.html" target="content">catégories</a></li>
+                <li><a href="./actualités.html" target="content">Citation du jour</a></li>
+                <li><a href="./about.html" target="content">A propos</a></li>
+                <li><a href="#" target="content">contact</a></li>
+            </ul>
+        </nav>
+        <button class="connect">Login</button>
+    </header>
+    <iframe name="content" src="acceuil.html" width="100%" height="100%" frameborder="0"></iframe>
+    <footer>
+        <div class="liens_rapides">
+            <ul>
+                <li><a href="./acceuil.html" >accueil</a></li>
+                <li><a href="./categories.html" >catégories</a></li>
+                <li><a href="./actualités.html" >Citation du jour</a></li>
+                <li><a href="./about.html" >A propos</a></li>
+                <li><a href="#" >contact</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 Générateur de Citation -- créé par AKIM & Alows </p>
+    </footer>
     <script src="./script.js"></script>
 </body>
 

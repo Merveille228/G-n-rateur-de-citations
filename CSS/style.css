@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    user-select: none;
+    height: 100vh;
+}
+
+.logo {
+    position: static;
+}
+.logo img{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 150px;
+    height: 25vh;
+}
+
+header {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+/* voici le boutonde connexion */
+header .connect {
+    height: 5vh;
+    margin: 15px;
+    width: 7vw;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #f255f7, #c533ea, #b41fc2);
+    transition: 0.5s ease;
+    border: #f255f7;
+    margin-top: -30px;
+}
+
+header .connect:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 17px rgba(168, 85, 247, 0.6);
+}
+
+/* .nav_bar{
+     border: 1px solid; 
+}  */
+.nav_bar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70vh;
+    list-style: none;
+    margin-top: -30px;
+}
+
+.nav_bar ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.nav_bar ul a:hover {
+    background: linear-gradient(90deg, #a855f7, #e433ea, #c822ce);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
+
+.nav_bar ul a:focus {
+    background: linear-gradient(90deg, #a855f7, #e433ea, #c822ce);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+footer P {
+    text-align: center;
+    font-size: small;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+footer ul li a{
+    color: #c533ea;
+    text-decoration: none;
+}
