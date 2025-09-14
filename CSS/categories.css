@@ -1,5 +1,4 @@
-
-h1{
+h1 {
     text-align: center;
     margin-top: -15px;
     margin-bottom: 30px;
@@ -9,7 +8,8 @@ h1{
     -moz-background-clip: text;
     color: transparent;
 }
-.card{
+
+.card {
     width: 80%;
     margin: auto;
     height: 200px;
@@ -18,10 +18,12 @@ h1{
     justify-content: center;
     flex-direction: column;
 }
+
 .card ul {
     display: flex;
     justify-content: space-between;
 }
+
 .card li {
     list-style: none;
     width: 200px;
@@ -29,7 +31,8 @@ h1{
     text-align: center;
     font-size: 1.2em;
 }
-.card ul li a{
+
+.card ul li a {
     text-decoration: none;
     color: rgb(224, 231, 161);
     height: 10vh;
@@ -39,58 +42,168 @@ h1{
     justify-content: center;
     display: flex;
     border-radius: 12px;
-    background: linear-gradient(90deg, rgb(133, 17, 133), rgb(185, 59, 185),violet);
+    background: linear-gradient(90deg, rgb(133, 17, 133), rgb(185, 59, 185), violet);
     box-shadow: 0px 0px 10px rgb(185, 59, 185);
     transition: transform 0.5s ease;
 }
-.card ul li a:hover{
+
+.card ul li a:hover {
     transform: translateY(-5px) scale(1.03);
 }
-.citation_container{
+
+.citation_container {
     margin: auto;
     /* border: 1px solid white; */
     /* background: wheat; */
     width: 50%;
-    height: 60vh;
+    height: 50vh;
     border-radius: 10px;
-    
     box-shadow: inset 0px 0px 12px rgb(194, 168, 168);
-    background-repeat: no-repeat;
-    background-size: 600px;
-    transition: filter 0.7s;
 }
-.citation_container:hover{
+
+.citation_container:hover img {
     filter: blur(0px);
-} 
-.citation_container img{
-    width: 400px;
-    position: absolute;
-    margin-left: 125px;
-    z-index: -1;
-    filter: blur(4px);
 }
-#générer{
-    background: linear-gradient(90deg, rgb(133, 17, 133), rgb(185, 59, 185),violet);
+
+.citation_container img {
+    width: 49.5%;
+    border-radius: 10px;
+    height: 50vh;
+    position: absolute;
+    z-index: -1;
+    filter: blur(5px);
+    transition: filter 1s;
+}
+
+#générer {
+    background: linear-gradient(90deg, rgb(133, 17, 133), rgb(185, 59, 185), violet);
     height: 7vh;
     width: 15vw;
     border: 1px solid rgb(185, 59, 185);
     border-radius: 20px;
     transition: transform 0.2s;
     box-shadow: 0px 0px 10px rgb(185, 59, 185);
-    margin-top: 60px;
-}
-#générer:hover{
-    transform: translateY(-2px) scale(1.03);
-    box-shadow: 0px 0px 12px rgb(185, 59, 185);
-    
+    font-size: 1.3em;
+    font-family: cursive;
 }
 
-.citations_content{
-    border: 1px solid white;
+#générer:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0px 0px 12px rgb(185, 59, 185);
+
+}
+
+.citations_content {
+    /* border: 1px solid white; */
     width: 90%;
-    height: 30vh;
+    height: 22vh;
     font-size: x-large;
     margin: 15px;
+    margin-left: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    color: rgb(185, 59, 185);
+}
+
+.citation_container p {
+    /* background: linear-gradient(90deg, #fff, #ffd6ff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-shadow: 2px 3px 9px rgba(201, 78, 201, 0.4);
+    font-family: "Merriweather"; */
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(133, 9, 145, 0.4);
+}
+
+.citation_container #liens_categorie {
+    box-shadow: inset 0px 0px 4px rgb(194, 168, 168);
+    color: rgb(138, 138, 115);
+    text-align: center;
+    opacity: 50%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.3em;
+}
+.img2{
+    animation: change 5s infinite;
+}
+.img1{
+    animation: change2 5s infinite;
+}
+@keyframes change {
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 0%;
+    }
+    30%{
+        opacity: 0%;
+    }
+    40%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    60%{
+        opacity: 100%;
+    }
+    70%{
+        opacity: 100%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    90%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes change2 {
+    0%{
+        opacity: 80%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    20%{
+        opacity: 100%;
+    }
+    30%{
+        opacity: 100%;
+    }
+    40%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    60%{
+        opacity: 0%;
+    }
+    70%{
+        opacity: 0%;
+    }
+    80%{
+        opacity: 0%;
+    }
+    90%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 0%;
+    }
 }

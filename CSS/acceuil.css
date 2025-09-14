@@ -19,25 +19,28 @@ h1 {
 }
 
 .cta {
-    height: 5vh;
+    height: 9vh;
     margin: 15px;
-    width: 15vw;
-    border-radius: 30px;
+    width: 19vw;
+    border-radius: 50px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 1.3em;
     cursor: pointer;
     background: linear-gradient(90deg, #f255f7, #c533ea, #b41fc2);
     transition: 0.5s ease;
     border: #f255f7;
     margin-top: 30px;
 }
+.cta:hover{
+    transform: translateY(-2px) scale(1.04);
+}
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid; */
-    height: 80vh;
+    /* border: 1px solid white; */
+    height: 90vh;
     background: radial-gradient(rgb(24, 1, 21), transparent 70%);
 }
 
