@@ -71,5 +71,20 @@ body p {
 
 }
 @media (max-width: 600px) {
-    
+    h1{
+        font-size: 1.5rem;
+    }
+    body p{
+        font-size: 0.9em;
+        width: 60%;
+    }
+    img{
+        width: 60%;
+        height: 70%;
+        z-index: -1;
+    }
+    .cta{
+        font-size: 0.7rem;
+        width: 90%;
+    }
 }

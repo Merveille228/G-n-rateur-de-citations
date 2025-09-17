@@ -83,6 +83,12 @@ header .connect:hover {
     color: transparent;
 }
 
+.menu-toggle {
+  display: none; /* Caché sur PC */
+  font-size: 28px;
+  cursor: pointer;
+}
+
 footer P {
     text-align: center;
     font-size: small;
@@ -103,10 +109,11 @@ footer ul li a{
     color: #c533ea;
     text-decoration: none;
 }
-@media (min-width: 421px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
     header .connect{
         width: 11vw;
         font-size: 13px;
+        display: none;
     }
     .nav_bar{
         margin-left: 0%;
@@ -125,6 +132,49 @@ footer ul li a{
     }
     
 }
-@media (max-width: 420px) {
-    
+
+/* Tablette & Mobile */
+@media (max-width: 600px) {
+    body{
+        height: 70vh;
+    }
+    .nav_bar .nav-links {
+    display: none; /* On cache les liens */
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 140px;
+    right: 0;
+    width: 95%;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  .nav-links li{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .nav-links.show {
+    display: flex; /* On montre le menu si "show" */
+    justify-content: flex-start;
+  }
+  
+  .menu-toggle {
+    display: block; /* On affiche le bouton hamburger */
+  }
+  header .connect{
+    display: none;
+  }
+  footer ul {
+    width: 70%;
+  }
+  footer p{
+    font-size: 0.7rem;
+  }
+  footer ul li a{
+    font-size: 10px;
+  }
 }
