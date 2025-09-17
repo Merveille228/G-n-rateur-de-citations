@@ -45,6 +45,10 @@
 
         menuToggle.addEventListener("click", () => {
             navLinks.classList.toggle("show");
+            document.querySelectorAll("a").addEventListener("click",function()
+        {
+            navLinks.classList.toggle("show");
+        })
         });
 
 

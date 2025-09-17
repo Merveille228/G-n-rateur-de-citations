@@ -136,7 +136,12 @@ footer ul li a{
 /* Tablette & Mobile */
 @media (max-width: 600px) {
     body{
-        height: 70vh;
+        height: 80vh;
+        width: 100%;
+    }
+    .logo img{
+        width: 20vw;
+        height: 15vh;
     }
     .nav_bar .nav-links {
     display: none; /* On cache les liens */
@@ -147,7 +152,7 @@ footer ul li a{
     top: 140px;
     right: 0;
     width: 95%;
-    height: 100vh;
+    height: 90vh;
     padding: 10px;
     border-radius: 0 0 10px 10px;
   }
@@ -164,6 +169,9 @@ footer ul li a{
   
   .menu-toggle {
     display: block; /* On affiche le bouton hamburger */
+  }
+  header{
+    height: 10vh;
   }
   header .connect{
     display: none;

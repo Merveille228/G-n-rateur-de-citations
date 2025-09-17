@@ -245,13 +245,20 @@ h1 {
         width: 82%;
     }
     .card{
-        width: 15%;
-        margin-left: 0% ;
-        margin-right: 0px;
+        width: 100%;
+        margin-left: -7%;
+    }
+    .card ul{
+        width: 90%;
+         
     }
     .card ul li{
-        margin: 7px;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        margin-left: 10px;
+    }
+    .card ul li a{
+        height: 8vh;
+        width: 100%;    
     }
     #générer{
         font-size: 1rem;
