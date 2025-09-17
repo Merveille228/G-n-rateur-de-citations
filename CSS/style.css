@@ -103,3 +103,28 @@ footer ul li a{
     color: #c533ea;
     text-decoration: none;
 }
+@media (min-width: 421px) and (max-width: 1024px) {
+    header .connect{
+        width: 11vw;
+        font-size: 13px;
+    }
+    .nav_bar{
+        margin-left: 0%;
+    }
+    .nav_bar ul{
+        width: 55vw;
+    }
+    .nav_bar ul a {
+        font-size: 0.8rem;
+    }
+    footer ul{
+        width: 70%;
+    }
+    footer ul li a{
+        font-size: 1.1rem;
+    }
+    
+}
+@media (max-width: 420px) {
+    
+}

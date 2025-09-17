@@ -1003,6 +1003,34 @@ let tab_Succès = [
     "Le futur dépend de ce que vous faites aujourd’hui. – Gandhi",
     "Si vous pouvez le rêver, vous pouvez le faire. – Walt Disney"
 ];
+let tab_Amitié = [
+    "etetete",
+    "eytrfuytfy"
+];
+let tab_Amour = [
+    "yryryuryu",
+    "tyfugi"
+];
+let tab_Humour = [
+    "ytfdytfyf",
+    "ououyiuyiy"
+];
+let tab_Motivation = [
+    "rtete",
+    "ytyfyf"
+];
+let tab_Philosophie = [
+    "rttdtdtdt",
+    "azazazazaz"
+];
+let tab_Vie = [
+    "pipioii",
+    "mlkmkjlkj"
+];
+let tab_XXXX = [
+    "wcwdcwcw",
+    "wvcbvcnb"
+];
 
 const liens_categorie = document.getElementById('liens_categorie');
 function addCaté(n) {
@@ -1024,6 +1052,42 @@ function addCaté(n) {
             citations.textContent = tab_Succès[index];
             console.log(index)
         }
+        else if  (liens_categorie.textContent === '💡Motivation') {
+            index = Math.floor(Math.random() * tab_Motivation.length);
+            citations.textContent = tab_Motivation[index];
+            console.log(index)
+        }
+        else if  (liens_categorie.textContent === '📖Philosophie') {
+            index = Math.floor(Math.random() * tab_Philosophie.length);
+            citations.textContent = tab_Philosophie[index];
+            console.log(index)
+        }
+        else if  (liens_categorie.textContent === '😂Humour') {
+            index = Math.floor(Math.random() * tab_Humour.length);
+            citations.textContent = tab_Humour[index];
+            console.log(index)
+        }
+        else if  (liens_categorie.textContent === '🌍Vie') {
+            index = Math.floor(Math.random() * tab_Vie.length);
+            citations.textContent = tab_Vie[index];
+            console.log(index)
+        }
+        else if  (liens_categorie.textContent === '🧑🏻‍🤝‍🧑Amitié') {
+            index = Math.floor(Math.random() * tab_Amitié.length);
+            citations.textContent = tab_Amitié[index];
+            console.log(index)
+        }
+        else if  (liens_categorie.textContent === 'XXXX') {
+            index = Math.floor(Math.random() * tab_XXXX.length);
+            citations.textContent = tab_XXXX[index];
+            console.log(index)
+        }
+        else if  (liens_categorie.textContent === '❤️Amour') {
+            index = Math.floor(Math.random() * tab_Amour.length);
+            citations.textContent = tab_Amour[index];
+            console.log(index)
+        }
+
     });
 }
 
