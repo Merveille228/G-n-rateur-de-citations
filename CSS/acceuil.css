@@ -73,10 +73,15 @@ body p {
 @media (max-width: 600px) {
     h1{
         font-size: 1.5rem;
+        margin-top: 20%;
+        margin-bottom: 20%;
+
     }
     body p{
-        font-size: 0.9em;
-        width: 60%;
+        font-size: 0.8em;
+        width: 90%;
+        margin-bottom: 20%;
+        line-height: 2;
     }
     img{
         width: 60%;

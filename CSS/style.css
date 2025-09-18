@@ -169,6 +169,7 @@ footer ul li a{
   
   .menu-toggle {
     display: block; /* On affiche le bouton hamburger */
+    margin-left: 80px;
   }
   header{
     height: 10vh;
