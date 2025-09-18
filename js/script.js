@@ -2290,7 +2290,7 @@ function addCaté(n) {
             citations.textContent = tab_Amitié[index];
             console.log(index)
         }
-        else if  (liens_categorie.textContent === 'Anime') {
+        else if  (liens_categorie.textContent === '✌️Anime') {
             index = Math.floor(Math.random() * tab_Anime.length);
             citations.textContent = tab_Anime[index];
             console.log(index)
